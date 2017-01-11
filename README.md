@@ -1,5 +1,5 @@
 # getbibref
-Small python3 script using Tkinter to retrieve the bibtex reference from research paper DOIs
+Small yet immensely useful python3 script using Tkinter to retrieve the bibtex reference from research paper DOIs
 
 Takes input in the form of a DOI "10.1098/rsta.2010.0348" and returns the Bibtex result e.g.
 
