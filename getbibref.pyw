@@ -2,7 +2,7 @@
 
 ''' getbibref.py
 Author: Ben Jones 
-Version: 0.1
+Version: 0.2
 Small attempt at a program to take a DOI input (unique address for research papers) and 
     return the Bibtex formatted result from the above website in a copy/pastable form. '''
 
@@ -50,6 +50,8 @@ class MyFirstGUI(Tk):
 
     def update_text(self, new_text):
         """ update the content of the text widget """
+        new_text = new_text.decode('unicode-escape').replace("%2F", "/", 1).encode() ##Removes the %2F that replaces the / in the URL
+        print(type(new_text))
         self.w.configure(state='normal')
         self.w.delete('1.0', 'end')    # clear text
         self.w.insert('1.0', new_text) # display new text
@@ -80,4 +82,4 @@ if __name__ == '__main__':
 
 
 __author__ = "Ben Jones"
-__version__ = "0.1"
+__version__ = "0.2"
