@@ -17,4 +17,4 @@ Takes input in the form of a DOI "10.1098/rsta.2010.0348" and returns the Bibtex
 		journal = {Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences}  
 	}  
 
-	Small but effective timesaver!   
+Small but effective timesaver!   
