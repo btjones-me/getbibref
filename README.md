@@ -1,5 +1,5 @@
 # getbibref
-Small yet immensely useful python3 script using Tkinter to retrieve the bibtex reference from research paper DOIs using the [CrossRef REST api](https://github.com/CrossRef/rest-api-doc/blob/master/rest_api.md)  
+Small yet useful python3 utility app using Tkinter to retrieve the bibtex reference from research paper DOIs using the [CrossRef REST api](https://github.com/CrossRef/rest-api-doc/blob/master/rest_api.md)  
   
 Takes input in the form of a DOI "10.1098/rsta.2010.0348" and returns the Bibtex result e.g.  
 
